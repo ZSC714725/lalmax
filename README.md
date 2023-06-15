@@ -21,7 +21,7 @@ lalmax是以lal为内核的卍解
 
 (4) RTC(WHIP)
 
-具体的推流url地址见https://pengrl.com/lal/#/streamurllist（除了srt/whip）
+具体的推流url(除了SRT/WHIP)地址见https://pengrl.com/lal/#/streamurllist
 
 ## 拉流
 (1) RTSP
@@ -39,12 +39,15 @@ lalmax是以lal为内核的卍解
 (7) RTC(WHEP)
 
 
-具体的拉流url地址见https://pengrl.com/lal/#/streamurllist（除了srt/whep）
+具体的拉流url(除了SRT/WHEP)地址见https://pengrl.com/lal/#/streamurllist 
 
 ## SRT
 （1）SRT推拉流依赖libsrt库,run.sh中有编译libsrt，如果run.sh无法编译libsrt，需要自己另行编译libsrt
+
 （2）暂时不支持SRT加密
+
 （3）支持H264/H265/AAC
+
 （4）可以对接OBS/VLC
 
 推流url
@@ -55,7 +58,9 @@ srt://127.0.0.1:6001?streamid=#!::r=test110,m=request
 
 ## WebRTC
 （1）支持WHIP推流和WHEP拉流,暂时只支持POST信令
+
 （2）支持H264/G711A/G711U,后续支持opus音频
+
 （3）可以对接vue-wish
 
 WHIP推流url
